@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+	<ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrkEngine3D.BEPUtil\OrkEngine3D.BEPUtil.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OrkEngine3D.Mathematics">
+      <HintPath>..\..\Dependencies\OrkEngine3D.Mathematics.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
